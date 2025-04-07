@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="14.76" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/je20262313/IdeaProjects/natwestassignment/target/test-classes:/Users/je20262313/IdeaProjects/natwestassignment/target/classes:/Users/je20262313/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/je20262313/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/je20262313/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/je20262313/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/je20262313/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/je20262313/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/je20262313/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar:/Users/je20262313/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/je20262313/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/je20262313/.m2/repository/net/masterthought/cucumber-reporting/5.7.6/cucumber-reporting-5.7.6.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/je20262313/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/je20262313/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/je20262313/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/je20262313/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/je20262313/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/Users/je20262313/.m2/repository/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar:/Users/je20262313/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/je20262313/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/je20262313/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/je20262313/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/je20262313/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/je20262313/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/je20262313/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/je20262313/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/je20262313/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/je20262313/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/je20262313/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/je20262313/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/Users/je20262313/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/je20262313/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/je20262313/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/je20262313/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/je20262313/.m2/repository/io/rest-assured/rest-assured/4.5.0/rest-assured-4.5.0.jar:/Users/je20262313/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:/Users/je20262313/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.9/groovy-xml-3.0.9.jar:/Users/je20262313/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/je20262313/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/je20262313/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/je20262313/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/je20262313/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/je20262313/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/je20262313/.m2/repository/io/rest-assured/json-path/4.5.0/json-path-4.5.0.jar:/Users/je20262313/.m2/repository/org/codehaus/groovy/groovy-json/3.0.9/groovy-json-3.0.9.jar:/Users/je20262313/.m2/repository/io/rest-assured/rest-assured-common/4.5.0/rest-assured-common-4.5.0.jar:/Users/je20262313/.m2/repository/io/rest-assured/xml-path/4.5.0/xml-path-4.5.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/je20262313/IdeaProjects/natwestassignment/target/surefire/surefirebooter-20250407023150184_3.jar /Users/je20262313/IdeaProjects/natwestassignment/target/surefire 2025-04-07T02-31-49_953-jvmRun1 surefire-20250407023150184_1tmp surefire_0-20250407023150184_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/je20262313/IdeaProjects/natwestassignment/target/test-classes:/Users/je20262313/IdeaProjects/natwestassignment/target/classes:/Users/je20262313/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/je20262313/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/je20262313/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/je20262313/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/je20262313/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/je20262313/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/je20262313/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/je20262313/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/je20262313/.m2/repository/io/cucumber/cucumber-junit/7.14.0/cucumber-junit-7.14.0.jar:/Users/je20262313/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/je20262313/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/je20262313/.m2/repository/net/masterthought/cucumber-reporting/5.7.6/cucumber-reporting-5.7.6.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/je20262313/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/je20262313/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/je20262313/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/je20262313/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/je20262313/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/Users/je20262313/.m2/repository/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar:/Users/je20262313/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/je20262313/.m2/repository/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar:/Users/je20262313/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/je20262313/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/je20262313/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/je20262313/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/Users/je20262313/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/je20262313/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/je20262313/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/je20262313/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/je20262313/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar:/Users/je20262313/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar:/Users/je20262313/.m2/repository/com/jayway/jsonpath/json-path/2.6.0/json-path-2.6.0.jar:/Users/je20262313/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar:/Users/je20262313/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar:/Users/je20262313/.m2/repository/org/ow2/asm/asm/9.1/asm-9.1.jar:/Users/je20262313/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/je20262313/.m2/repository/io/rest-assured/rest-assured/4.5.0/rest-assured-4.5.0.jar:/Users/je20262313/.m2/repository/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar:/Users/je20262313/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.9/groovy-xml-3.0.9.jar:/Users/je20262313/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/je20262313/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/je20262313/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/je20262313/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/je20262313/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/je20262313/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/je20262313/.m2/repository/io/rest-assured/json-path/4.5.0/json-path-4.5.0.jar:/Users/je20262313/.m2/repository/org/codehaus/groovy/groovy-json/3.0.9/groovy-json-3.0.9.jar:/Users/je20262313/.m2/repository/io/rest-assured/rest-assured-common/4.5.0/rest-assured-common-4.5.0.jar:/Users/je20262313/.m2/repository/io/rest-assured/xml-path/4.5.0/xml-path-4.5.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/je20262313"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/je20262313/IdeaProjects/natwestassignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/je20262313/IdeaProjects/natwestassignment/target/surefire/surefirebooter-20250407023150184_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="je20262313"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/je20262313/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rp/_sfr5l99559fj0__m6hmpkyc0000gp/T/"/>
+    <property name="idea.version" value="2024.3.5"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/Users/je20262313/IdeaProjects/natwestassignment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/je20262313/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="Verify an object, iphone11.json can be added" classname="This feature to cover the scenarios of POST call to add an object to the list" time="3.019">
+    <system-out><![CDATA[
+@AddObject @regression
+Scenario Outline: Verify an object, iphone11.json can be added # src/test/resources/features/AddObject.feature:11
+  Given an object ,"iphone11.json" is created                  # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de01fab28b7",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:54.155+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de01fab28b7",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:54.155+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de01fab28b7",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:54.155+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de01fab28b7",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:54.155+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When the request to add the item is made                     # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned                         # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                                          # stepdefinitions.Apisteps.object_is_added()
+]]></system-out>
+  </testcase>
+  <testcase name="Verify an object, iphone12.json can be added" classname="This feature to cover the scenarios of POST call to add an object to the list" time="0.423">
+    <system-out><![CDATA[
+@AddObject @regression
+Scenario Outline: Verify an object, iphone12.json can be added # src/test/resources/features/AddObject.feature:12
+  Given an object ,"iphone12.json" is created                  # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de021ad28b8",
+    "name": "iPhone 12",
+    "createdAt": "2025-04-07T01:31:54.669+00:00",
+    "data": {
+        "color": "white",
+        "capacity": "256gb",
+        "price": "500£"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de021ad28b8",
+    "name": "iPhone 12",
+    "createdAt": "2025-04-07T01:31:54.669+00:00",
+    "data": {
+        "color": "white",
+        "capacity": "256gb",
+        "price": "500£"
+    }
+}
+{
+    "id": "ff808181932badb601960de021ad28b8",
+    "name": "iPhone 12",
+    "createdAt": "2025-04-07T01:31:54.669+00:00",
+    "data": {
+        "color": "white",
+        "capacity": "256gb",
+        "price": "500£"
+    }
+}
+{
+    "id": "ff808181932badb601960de021ad28b8",
+    "name": "iPhone 12",
+    "createdAt": "2025-04-07T01:31:54.669+00:00",
+    "data": {
+        "color": "white",
+        "capacity": "256gb",
+        "price": "500£"
+    }
+}
+  When the request to add the item is made                     # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned                         # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                                          # stepdefinitions.Apisteps.object_is_added()
+]]></system-out>
+  </testcase>
+  <testcase name="Verify an object, iphone13.json can be added" classname="This feature to cover the scenarios of POST call to add an object to the list" time="0.466">
+    <system-out><![CDATA[
+@AddObject @regression
+Scenario Outline: Verify an object, iphone13.json can be added # src/test/resources/features/AddObject.feature:13
+  Given an object ,"iphone13.json" is created                  # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de0235528b9",
+    "name": "iphone 13",
+    "createdAt": "2025-04-07T01:31:55.093+00:00",
+    "data": null
+}
+Response is {
+    "id": "ff808181932badb601960de0235528b9",
+    "name": "iphone 13",
+    "createdAt": "2025-04-07T01:31:55.093+00:00",
+    "data": null
+}
+{
+    "id": "ff808181932badb601960de0235528b9",
+    "name": "iphone 13",
+    "createdAt": "2025-04-07T01:31:55.093+00:00",
+    "data": null
+}
+{
+    "id": "ff808181932badb601960de0235528b9",
+    "name": "iphone 13",
+    "createdAt": "2025-04-07T01:31:55.093+00:00",
+    "data": null
+}
+  When the request to add the item is made                     # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned                         # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                                          # stepdefinitions.Apisteps.object_is_added()
+]]></system-out>
+  </testcase>
+  <testcase name="Verify an object, empty.json can be added" classname="This feature to cover the scenarios of POST call to add an object to the list" time="0.498">
+    <system-out><![CDATA[
+@AddObject @regression
+Scenario Outline: Verify an object, empty.json can be added # src/test/resources/features/AddObject.feature:14
+  Given an object ,"empty.json" is created                  # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de0256428ba",
+    "name": null,
+    "createdAt": "2025-04-07T01:31:55.620+00:00",
+    "data": null
+}
+Response is {
+    "id": "ff808181932badb601960de0256428ba",
+    "name": null,
+    "createdAt": "2025-04-07T01:31:55.620+00:00",
+    "data": null
+}
+{
+    "id": "ff808181932badb601960de0256428ba",
+    "name": null,
+    "createdAt": "2025-04-07T01:31:55.620+00:00",
+    "data": null
+}
+{
+    "id": "ff808181932badb601960de0256428ba",
+    "name": null,
+    "createdAt": "2025-04-07T01:31:55.620+00:00",
+    "data": null
+}
+  When the request to add the item is made                  # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned                      # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                                       # stepdefinitions.Apisteps.object_is_added()
+]]></system-out>
+  </testcase>
+  <testcase name="Verify an invalid object data cannot add -posting without body" classname="This feature to cover the scenarios of POST call to add an object to the list" time="0.504">
+    <system-out><![CDATA[
+@AddObject @regression
+Scenario: Verify an invalid object data cannot add -posting without body # src/test/resources/features/AddObject.feature:16
+{
+    "error": "400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all."
+}
+Response is {
+    "error": "400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all."
+}
+{
+    "error": "400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all."
+}
+{
+    "error": "400 Bad Request. If you are trying to create or update the data, potential issue is that you are sending incorrect body json or it is missing at all."
+}
+  When the request to add the item is made                               # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 400 response code is returned                                   # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is not added                                                # stepdefinitions.Apisteps.object_is_not_added()
+]]></system-out>
+  </testcase>
+  <testcase name="Ability to return an item" classname="This feature to cover the scenarios of GET call to get individual or multiple object details" time="0.891">
+    <system-out><![CDATA[
+@GetObject @regression
+Scenario: Ability to return an item           # src/test/resources/features/GetObjects.feature:4
+  Given an object ,"iphone11.json" is created # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de0292728bc",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:56.583+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de0292728bc",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:56.583+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de0292728bc",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:56.583+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de0292728bc",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:56.583+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When the request to add the item is made    # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned        # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                         # stepdefinitions.Apisteps.object_is_added()
+{
+    "id": "ff808181932badb601960de0292728bc",
+    "name": "iPhone 11",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+GET Response is {
+    "id": "ff808181932badb601960de0292728bc",
+    "name": "iPhone 11",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When I get the item by its Id               # stepdefinitions.Apisteps.i_get_the_item_by_its_id(java.lang.String)
+  Then the response matched with the id       # stepdefinitions.Apisteps.the_response_matched_with_the_id()
+]]></system-out>
+  </testcase>
+  <testcase name="Ability to return list of multiple items" classname="This feature to cover the scenarios of GET call to get individual or multiple object details" time="1.414">
+    <system-out><![CDATA[
+@GetObject @regression
+Scenario: Ability to return list of multiple items # src/test/resources/features/GetObjects.feature:12
+  Given an object ,"iphone11.json" is created      # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de02cd228bd",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.522+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de02cd228bd",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.522+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de02cd228bd",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.522+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de02cd228bd",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.522+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When the request to add the item is made         # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned             # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                              # stepdefinitions.Apisteps.object_is_added()
+  Given an object ,"iphone11.json" is created      # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de02e8128be",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.953+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de02e8128be",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.953+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de02e8128be",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.953+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de02e8128be",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:57.953+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When the request to add the item is made         # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned             # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                              # stepdefinitions.Apisteps.object_is_added()
+[
+    {
+        "id": "ff808181932badb601960de02cd228bd",
+        "name": "iPhone 11",
+        "data": {
+            "color": "black",
+            "capacity": "128gb"
+        }
+    },
+    {
+        "id": "ff808181932badb601960de02e8128be",
+        "name": "iPhone 11",
+        "data": {
+            "color": "black",
+            "capacity": "128gb"
+        }
+    }
+]
+GET Response is [
+    {
+        "id": "ff808181932badb601960de02cd228bd",
+        "name": "iPhone 11",
+        "data": {
+            "color": "black",
+            "capacity": "128gb"
+        }
+    },
+    {
+        "id": "ff808181932badb601960de02e8128be",
+        "name": "iPhone 11",
+        "data": {
+            "color": "black",
+            "capacity": "128gb"
+        }
+    }
+]
+  When I get the item by its id list               # stepdefinitions.Apisteps.i_get_the_item_by_its_id_list()
+Processing from list of items #1
+Processing from list of items #2
+  Then the response returns a list of items        # stepdefinitions.Apisteps.the_response_returns_a_list_of_items()
+]]></system-out>
+  </testcase>
+  <testcase name="Object not found for incorrect Id" classname="This feature to cover the scenarios of GET call to get individual or multiple object details" time="0.402">
+    <system-out><![CDATA[
+@GetObject @regression
+Scenario: Object not found for incorrect Id           # src/test/resources/features/GetObjects.feature:24
+{
+    "error": "Oject with id=111 was not found."
+}
+GET Response is {
+    "error": "Oject with id=111 was not found."
+}
+  When I get the item by its Id "111"                 # stepdefinitions.Apisteps.i_get_the_item_by_its_id(java.lang.String)
+  Then a 404 response code is returned                # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  Then received object not found message for id "111" # stepdefinitions.Apisteps.received_object_not_found_message_for_id(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Verify ability to list all items" classname="This feature is to verify service is able to list all objects" time="0.373">
+    <system-out><![CDATA[
+@RemoveObject @regression
+Scenario: Verify ability to list all items                                        # src/test/resources/features/ListAllObjects.feature:4
+[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+Response is [
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    },
+    {
+        "id": "3",
+        "name": "Apple iPhone 12 Pro Max",
+        "data": {
+            "color": "Cloudy White",
+            "capacity GB": 512
+        }
+    },
+    {
+        "id": "4",
+        "name": "Apple iPhone 11, 64GB",
+        "data": {
+            "price": 389.99,
+            "color": "Purple"
+        }
+    },
+    {
+        "id": "5",
+        "name": "Samsung Galaxy Z Fold2",
+        "data": {
+            "price": 689.99,
+            "color": "Brown"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Apple AirPods",
+        "data": {
+            "generation": "3rd",
+            "price": 120
+        }
+    },
+    {
+        "id": "7",
+        "name": "Apple MacBook Pro 16",
+        "data": {
+            "year": 2019,
+            "price": 1849.99,
+            "CPU model": "Intel Core i9",
+            "Hard disk size": "1 TB"
+        }
+    },
+    {
+        "id": "8",
+        "name": "Apple Watch Series 8",
+        "data": {
+            "Strap Colour": "Elderberry",
+            "Case Size": "41mm"
+        }
+    },
+    {
+        "id": "9",
+        "name": "Beats Studio3 Wireless",
+        "data": {
+            "Color": "Red",
+            "Description": "High-performance wireless noise cancelling headphones"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "64 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "11",
+        "name": "Apple iPad Mini 5th Gen",
+        "data": {
+            "Capacity": "254 GB",
+            "Screen size": 7.9
+        }
+    },
+    {
+        "id": "12",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "419.99",
+            "Capacity": "64 GB"
+        }
+    },
+    {
+        "id": "13",
+        "name": "Apple iPad Air",
+        "data": {
+            "Generation": "4th",
+            "Price": "519.99",
+            "Capacity": "256 GB"
+        }
+    }
+]
+  When I hit API to list all objects                                              # stepdefinitions.Apisteps.i_hit_api_to_list_all_objects()
+  Then a 200 response code is returned                                            # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And verify all the default 13 objects retrieved as in "allObjectsResponse.json" # stepdefinitions.Apisteps.verify_all_the_objects_retrieved(int,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Ability to remove the item from list and verify its removed" classname="This feature to cover the scenarios of DELETE call to remove the object data" time="1.399">
+    <system-out><![CDATA[
+@RemoveObject @regression
+Scenario: Ability to remove the item from list and verify its removed # src/test/resources/features/RemoveObject.feature:5
+  Given an object ,"iphone11.json" is created                         # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de0356528bf",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:59.717+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de0356528bf",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:59.717+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de0356528bf",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:59.717+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de0356528bf",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:31:59.717+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When the request to add the item is made                            # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned                                # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                                                 # stepdefinitions.Apisteps.object_is_added()
+{
+    "message": "Object with id = ff808181932badb601960de0356528bf has been deleted."
+}
+Response is {
+    "message": "Object with id = ff808181932badb601960de0356528bf has been deleted."
+}
+  When the request to remove the item is made                         # stepdefinitions.Apisteps.the_request_to_remove_the_item_is_made(java.lang.String)
+  Then verify the delete response body                                # stepdefinitions.Apisteps.verify_the_delete_response_body()
+{
+    "error": "Oject with id=ff808181932badb601960de0356528bf was not found."
+}
+GET Response is {
+    "error": "Oject with id=ff808181932badb601960de0356528bf was not found."
+}
+  When I get the item by its Id                                       # stepdefinitions.Apisteps.i_get_the_item_by_its_id(java.lang.String)
+  Then received object not found message for id                       # stepdefinitions.Apisteps.received_object_not_found_message_for_id(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="Verify proper error received when when try to delete the object doesn&apos;t exist" classname="This feature to cover the scenarios of DELETE call to remove the object data" time="1.335">
+    <system-out><![CDATA[
+@RemoveObject @regression
+Scenario: Verify proper error received when when try to delete the object doesn't exist # src/test/resources/features/RemoveObject.feature:15
+  Given an object ,"iphone11.json" is created                                           # stepdefinitions.Apisteps.an_item_is_created(java.lang.String)
+{
+    "id": "ff808181932badb601960de03ac328c0",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:32:01.092+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+Response is {
+    "id": "ff808181932badb601960de03ac328c0",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:32:01.092+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de03ac328c0",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:32:01.092+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+{
+    "id": "ff808181932badb601960de03ac328c0",
+    "name": "iPhone 11",
+    "createdAt": "2025-04-07T01:32:01.092+00:00",
+    "data": {
+        "color": "black",
+        "capacity": "128gb"
+    }
+}
+  When the request to add the item is made                                              # stepdefinitions.Apisteps.the_request_to_add_the_item_is_made()
+  Then a 200 response code is returned                                                  # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And object is added                                                                   # stepdefinitions.Apisteps.object_is_added()
+{
+    "message": "Object with id = ff808181932badb601960de03ac328c0 has been deleted."
+}
+Response is {
+    "message": "Object with id = ff808181932badb601960de03ac328c0 has been deleted."
+}
+  When the request to remove the item is made                                           # stepdefinitions.Apisteps.the_request_to_remove_the_item_is_made(java.lang.String)
+  Then verify the delete response body                                                  # stepdefinitions.Apisteps.verify_the_delete_response_body()
+{
+    "error": "Object with id = ff808181932badb601960de03ac328c0 doesn't exist."
+}
+Response is {
+    "error": "Object with id = ff808181932badb601960de03ac328c0 doesn't exist."
+}
+  When the request to remove the item is made                                           # stepdefinitions.Apisteps.the_request_to_remove_the_item_is_made(java.lang.String)
+  Then a 404 response code is returned                                                  # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And received object doesn't found                                                     # stepdefinitions.Apisteps.received_object_doesnt_found()
+]]></system-out>
+  </testcase>
+  <testcase name="Verify proper error received when try to delete reserved data" classname="This feature to cover the scenarios of DELETE call to remove the object data" time="0.411">
+    <system-out><![CDATA[
+@RemoveObject @regression
+Scenario: Verify proper error received when try to delete reserved data # src/test/resources/features/RemoveObject.feature:27
+{
+    "error": "11 is a reserved id and the data object of it cannot be deleted. You can create your own new object via POST request and try to send a DELETE request with new generated object id."
+}
+Response is {
+    "error": "11 is a reserved id and the data object of it cannot be deleted. You can create your own new object via POST request and try to send a DELETE request with new generated object id."
+}
+  When the request to remove the id "11" is made                        # stepdefinitions.Apisteps.the_request_to_remove_the_item_is_made(java.lang.String)
+  Then a 405 response code is returned                                  # stepdefinitions.Apisteps.a_response_code_is_returned(int)
+  And received message as reserved id's cannot delete for id "11"       # stepdefinitions.Apisteps.received_message_as_reserved_ids_cannot_delete(java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
